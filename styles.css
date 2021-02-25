@@ -1,0 +1,42 @@
+:root{
+    --black: #3a3a3a;
+}
+body {
+    /* background-image: url("images/code-editor.png"); */
+    background-color: #cccccc;
+    background-size: 100%;
+    color:white;
+    font-family: 'Open Sans' sans-serif;
+   }
+
+.list-non-bullet
+{
+    list-style:none;
+    text-align: right;
+}
+
+.list-item-inline{
+    display:inline;
+    padding: 0rem  1rem;
+}
+
+.navbar{
+    background-color: var(--black);
+    margin: 0rem 0rem;
+    padding:0.5rem 1rem;
+    color:white;
+    border-bottom-left-radius: 2rem;
+}
+ .navbar .link-active{
+    font-weight: bold;
+ }
+
+.nav-brand{
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+.navbar .links{
+    color: white;
+}
