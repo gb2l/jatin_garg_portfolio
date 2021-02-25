@@ -1,11 +1,14 @@
+*{
+    margin:0rem 0rem;
+}
 :root{
     --black: #3a3a3a;
 }
 body {
     /* background-image: url("images/code-editor.png"); */
-    background-color: #cccccc;
+    background-color: whitesmoke;
     background-size: 100%;
-    color:white;
+    color:black;
     font-family: 'Open Sans' sans-serif;
    }
 
