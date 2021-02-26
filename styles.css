@@ -75,3 +75,18 @@ hr{
 .link-active{
     font-weight:bold;
 }
+
+.header{
+    padding:2rem 0rem;
+}
+.header-img{
+    max-width:300px;
+    display:block;
+    margin:auto;
+}
+
+.header-heading{
+    padding:0.5rem 0rem;
+    font-size:xlarge;
+    text-align: center;
+}
