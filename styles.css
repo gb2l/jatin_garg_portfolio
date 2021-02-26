@@ -109,11 +109,11 @@ hr{
 .footer{
     background-color: var(--black);
     color:var(--white);
+    text-align: center;
 }
 
 .footer-heading{
     font-size: 1.1rem;
-    text-align: center;
 }
 
 .footer-links{
