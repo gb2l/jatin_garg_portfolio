@@ -1,16 +1,44 @@
-*{
-    margin:0rem 0rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root{
     --black: #3a3a3a;
+    --white: whitesmoke;
 }
 body {
     /* background-image: url("images/code-editor.png"); */
-    background-color: whitesmoke;
+    background-color:var(--white);
     background-size: 100%;
-    color:black;
-    font-family: 'Open Sans' sans-serif;
-   }
+    color:var(--black);
+    font-family: 'Open Sans', sans-serif;
+    margin:0rem 0rem;
+}
+
+.container{
+    padding: 1rem 1rem;
+}
+.container-centre{
+    max-width: 600px;
+    margin:auto;
+}
+
+hr{
+    margin:1rem 0rem;
+}
+
+.links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.link-primary{
+    background-color: var(--black);
+    color:var(--white);
+}
+
+.link-secondary{
+    border:1px solid var(--black);
+    color:var(--black);
+}
 
 .list-non-bullet
 {
