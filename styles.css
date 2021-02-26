@@ -113,4 +113,9 @@ hr{
 
 .footer-heading{
     font-size: 1.1rem;
+    text-align: center;
+}
+
+.footer-links{
+    color:var(--white);
 }
