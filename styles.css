@@ -95,6 +95,7 @@ hr{
 .section{
     text-align: center;
     padding: 1rem 1rem;
+    border-radius: 1rem;
 }
 
 .section-white{
@@ -103,6 +104,13 @@ hr{
 
 .section-gray{
     background-color:var(--gray);
-
 }
 
+.footer{
+    background-color: var(--black);
+    color:var(--white);
+}
+
+.footer-heading{
+    font-size: 1.1rem;
+}
