@@ -2,6 +2,7 @@
 :root{
     --black: #3a3a3a;
     --white: whitesmoke;
+    --gray: #9CA3AF;
 }
 body {
     /* background-image: url("images/code-editor.png"); */
@@ -90,3 +91,18 @@ hr{
     font-size:xlarge;
     text-align: center;
 }
+
+.section{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.section-white{
+    background-color:white;
+}
+
+.section-gray{
+    background-color:var(--gray);
+
+}
+
