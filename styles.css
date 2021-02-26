@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0rem 0rem;
+}
 :root{
     --black: #3a3a3a;
     --white: whitesmoke;
@@ -10,7 +13,6 @@ body {
     background-size: 100%;
     color:var(--black);
     font-family: 'Open Sans', sans-serif;
-    margin:0rem 0rem;
 }
 
 .container{
