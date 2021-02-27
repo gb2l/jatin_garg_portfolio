@@ -110,10 +110,13 @@ hr{
     background-color: var(--black);
     color:var(--white);
     text-align: center;
+    margin:2rem 0rem;
+    padding:1rem rem;
 }
 
 .footer-heading{
     font-size: 1.1rem;
+    padding:1rem 0rem;
 }
 
 .footer-links{
